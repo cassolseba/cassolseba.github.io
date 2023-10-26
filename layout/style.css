@@ -1,0 +1,58 @@
+body {
+  margin: 80px 0;
+  padding: 0;
+  background-color: lightgrey;
+  font-family: "Roboto Light", sans-serif;
+  font-size: 16px;
+}
+
+.cs-header {
+  width: 100%;
+  height: auto;
+  max-height: 75px;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  background-color: white;
+  display: flex;
+}
+@media screen and (min-width: 0px) {
+  .cs-header {
+    display: none;
+  }
+}
+.cs-header .logo {
+  margin: 10px 10px;
+  font-size: 3em;
+  font-weight: lighter;
+  transition: font-size 0.3s;
+}
+.cs-header .logo:hover {
+  font-size: 3.2em;
+  cursor: pointer;
+}
+.cs-header .cs-nav {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.cs-header .cs-nav .nav-link {
+  margin: 0 10px;
+  transition: font-size 0.3s;
+}
+.cs-header .cs-nav .nav-link:hover {
+  font-size: 1.1em;
+  cursor: pointer;
+}
+.cs-header a {
+  text-decoration: none;
+  color: black;
+}
+
+h1 {
+  font-size: 1.8em;
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */
